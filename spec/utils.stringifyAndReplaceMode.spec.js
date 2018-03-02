@@ -2,7 +2,7 @@ const {
   stringifyAndReplaceMode,
   PREDEFINED_MODE_VALUES,
 } = require('../src/utils');
-const stubConfig = require('../src/webpack.feature-flags.config');
+const stubConfig = require('./webpack.feature-flags.sample.config');
 
 
 describe('stringifyAndReplaceMode', () => {
