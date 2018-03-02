@@ -1,0 +1,38 @@
+{
+  "name": "webpack-feature-flags-plugin",
+  "version": "1.0.1",
+  "description": "Feature Flags plugin for Webpack.",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --config webpack.build.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davolokh/webpack-feature-flags-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-plugin",
+    "feature-flags",
+    "feature-toggle"
+  ],
+  "author": "Dmitry Volokh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davolokh/webpack-feature-flags-plugin/issues"
+  },
+  "homepage": "https://github.com/davolokh/webpack-feature-flags-plugin#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack-node-externals": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^22.4.2",
+    "webpack": "^3.4.1"
+  },
+  "peerDependencies": {
+    "webpack": "*"
+  }
+}

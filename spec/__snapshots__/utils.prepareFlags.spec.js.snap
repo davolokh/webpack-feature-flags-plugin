@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`prepareFlags prepareFlags: TEST namespace defined 1`] = `
+Object {
+  "TEST": Object {
+    "nameSpace2": Object {
+      "feature20": Object {
+        "enabled": "false",
+      },
+      "feature21": Object {
+        "enabled": "false",
+      },
+    },
+    "nameSpace3": Object {
+      "feature30": Object {
+        "enabled": "false",
+      },
+    },
+    "namespace1": Object {
+      "feature10": Object {
+        "enabled": "true",
+      },
+      "feature11": Object {
+        "enabled": "true",
+      },
+    },
+  },
+}
+`;
+
+exports[`prepareFlags prepareFlags: empty config defined 1`] = `
+Object {
+  "nameSpace2": Object {
+    "feature20": Object {
+      "enabled": "false",
+    },
+    "feature21": Object {
+      "enabled": "false",
+    },
+  },
+  "nameSpace3": Object {
+    "feature30": Object {
+      "enabled": "false",
+    },
+  },
+  "namespace1": Object {
+    "feature10": Object {
+      "enabled": "false",
+    },
+    "feature11": Object {
+      "enabled": "true",
+    },
+  },
+}
+`;
+
+exports[`prepareFlags prepareFlags: no namespace defined, DEV mode 1`] = `
+Object {
+  "nameSpace2": Object {
+    "feature20": Object {
+      "enabled": "false",
+    },
+    "feature21": Object {
+      "enabled": "false",
+    },
+  },
+  "nameSpace3": Object {
+    "feature30": Object {
+      "enabled": "false",
+    },
+  },
+  "namespace1": Object {
+    "feature10": Object {
+      "enabled": "true",
+    },
+    "feature11": Object {
+      "enabled": "true",
+    },
+  },
+}
+`;
+
+exports[`prepareFlags prepareFlags: no namespace defined, PROD mode 1`] = `
+Object {
+  "nameSpace2": Object {
+    "feature20": Object {
+      "enabled": "true",
+    },
+    "feature21": Object {
+      "enabled": "false",
+    },
+  },
+  "nameSpace3": Object {
+    "feature30": Object {
+      "enabled": "false",
+    },
+  },
+  "namespace1": Object {
+    "feature10": Object {
+      "enabled": "false",
+    },
+    "feature11": Object {
+      "enabled": "true",
+    },
+  },
+}
+`;
