@@ -7,6 +7,7 @@ Feature Flags plugin for [Webpack](https://webpack.js.org).
 [![Dependency Status](https://david-dm.org/davolokh/webpack-feature-flags-plugin.svg)](https://david-dm.org/davolokh/webpack-feature-flags-plugin)
 [![devDependency Status](https://david-dm.org/davolokh/webpack-feature-flags-plugin/dev-status.svg)](https://david-dm.org/davolokh/webpack-feature-flags-plugin#info=devDependencies)
 [![Npm Version](https://badge.fury.io/js/webpack-feature-flags-plugin.svg)](http://badge.fury.io/js/webpack-feature-flags-plugin)
+![Stacklok Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fapp.staging.stacklok.dev%2Fbadge%3Ftype%3Dnpm%26name%3Dwebpack-feature-flags-plugin&link=https%3A%2F%2Fapp.staging.stacklok.dev%2Fbadge%3Ftype%3Dnpm%26name%3Dwebpack-feature-flags-plugin)
 
 
 # Intro
